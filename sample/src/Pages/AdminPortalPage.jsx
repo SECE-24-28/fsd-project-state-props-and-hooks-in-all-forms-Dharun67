@@ -20,6 +20,8 @@ const getFacultyData = () => {
     { id: 5, empId: 'FAC-CV-001', name: 'Dr. Meena T.', dept: 'Civil', designation: 'Asst. Professor', email: 'meena@bec.edu.in', status: 'On Leave', password: 'faculty123' },
   ];
 };
+
+const getStudentData = () => {
   const stored = localStorage.getItem('bec_students');
   return stored ? JSON.parse(stored) : [
     { id: 1, roll: '21CS001', name: 'Arjun Ramesh', dept: 'CSE', sem: 5, email: 'arjun@bec.edu.in', status: 'Active', password: 'pass123' },

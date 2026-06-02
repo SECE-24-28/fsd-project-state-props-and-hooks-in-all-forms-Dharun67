@@ -534,7 +534,6 @@ function Home() {
           <p>We offer B.E. and B.Tech programs in Computer Science, Electronics, Mechanical, Civil, Information Technology, and Biotechnology. We also offer M.E. and Ph.D programs in select disciplines.</p>
         </div>
       </div>
-
       <div className="faq-item">
         <div className="faq-q" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
           <span>Is Best Engineering College affiliated to Anna University?</span>
@@ -544,7 +543,6 @@ function Home() {
           <p>Yes, Best Engineering College is an autonomous institution affiliated to Anna University, Chennai. All degrees are awarded by Anna University.</p>
         </div>
       </div>
-
       <div className="faq-item">
         <div className="faq-q" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
           <span>When was the college established?</span>
@@ -554,7 +552,6 @@ function Home() {
           <p>Best Engineering College was established in 2016 and has since grown into a premier technical institution with excellent infrastructure and experienced faculty.</p>
         </div>
       </div>
-
       <div className="faq-item">
         <div className="faq-q" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
           <span>What is the placement record of the college?</span>
@@ -564,7 +561,6 @@ function Home() {
           <p>We maintain a 95% placement rate. Top recruiters include TCS, Infosys, Wipro, Cognizant, HCL, and many more. Our dedicated placement cell works year-round to connect students with top companies.</p>
         </div>
       </div>
-
       <div className="faq-item">
         <div className="faq-q" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
           <span>Does the college provide hostel facilities?</span>
@@ -574,7 +570,6 @@ function Home() {
           <p>Yes, we have separate hostel facilities for boys and girls with all modern amenities including Wi-Fi, mess, laundry, and 24/7 security.</p>
         </div>
       </div>
-
       <div className="faq-item">
         <div className="faq-q" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
           <span>How can I apply for admission?</span>
@@ -584,7 +579,6 @@ function Home() {
           <p>Admissions are based on TNEA counselling for B.E. programs. You can also visit our admissions office or apply online through our student portal. Contact us at admissions@bec.edu.in for more details.</p>
         </div>
       </div>
-
       <div className="faq-item">
         <div className="faq-q" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
           <span>Is the college NAAC accredited?</span>
@@ -594,7 +588,6 @@ function Home() {
           <p>Yes, Best Engineering College is NAAC accredited with an A Grade. We are also NBA accredited and ISO certified, ensuring the highest standards of education.</p>
         </div>
       </div>
-
       <div className="faq-item">
         <div className="faq-q" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
           <span>Are scholarships available for students?</span>
@@ -604,10 +597,8 @@ function Home() {
           <p>Yes, we offer various scholarships including government scholarships, merit-based scholarships, and sports scholarships. Visit the student services section or contact our scholarship cell for more information.</p>
         </div>
       </div>
-
     </div>
   </section>
-
   <section className="admission-section">
     <p className="section-tag center">Admissions</p>
     <h2 className="sec-title">How to Apply</h2>
@@ -648,7 +639,6 @@ function Home() {
       <a href="/" className="btn-gold">Apply Now</a>
     </div>
   </section>
-
   <section className="gallery-section">
     <p className="section-tag center">Gallery</p>
     <h2 className="sec-title">Campus Gallery</h2>
@@ -680,7 +670,6 @@ function Home() {
       </div>
     </div>
   </section>
-
   <section className="contact-strip">
     <div className="contact-strip-inner">
       <div className="contact-item">
@@ -713,8 +702,8 @@ function Home() {
         <div className="contact-icon">&#128336;</div>
         <div>
           <h4>Working Hours</h4>
-          <p>Monday - Saturday</p>
-          <p>9:00 AM - 5:00 PM</p>
+          <p>Monday-Saturday</p>
+          <p>9:00 AM-5:00 PM</p>
         </div>
       </div>
     </div>
